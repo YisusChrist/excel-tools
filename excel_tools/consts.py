@@ -1,0 +1,8 @@
+EXIT_SUCCESS = 0
+EXIT_FAILURE = 1
+
+DEFAULT_DST_NAME = "result.xlsx"
+COLUMN_SUFFIX = " (Num)"
+
+DEBUG = False
+LOCALE_FORMAT = "en_US.UTF-8"
