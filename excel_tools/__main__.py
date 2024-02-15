@@ -102,6 +102,8 @@ def handle_user_action(action):
 
 def main():
     """Main function."""
+    install(show_locals=DEBUG)
+
     locale.setlocale(locale.LC_ALL, LOCALE_FORMAT)
 
     # Get the user's chosen action
@@ -113,5 +115,4 @@ def main():
 
 if __name__ == "__main__":
     # Enable rich error formatting in debug mode
-    install(show_locals=DEBUG)
     main()
