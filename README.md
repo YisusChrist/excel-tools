@@ -41,7 +41,7 @@ Table of Contents
 2. Install the required dependencies:
 
    ```bash
-   poetry install --no-dev
+   poetry install --only main
    ```
 
 3. Run the script:
